@@ -156,11 +156,13 @@ In multi-batch decoding scenrio:
 - **More Consistent Reasoning Path**: - R-KV’s redundancy-based scoring often removes **critical numerical tokens**, disrupting logical coherence and prolonging generation. In contrast, SkipKV’s **sentence-level, semantics-aware** eviction preserves essential reasoning steps, maintaining a more consistent and concise reasoning trajectory.
 
 # 🙏 Citation & Acknowledgement
+```
 @article{tian2025skipkv,
   title={SkipKV: Selective Skipping of KV Generation and Storage for Efficient Inference with Large Reasoning Models},
   author={Tian, Jiayi and Azizi, Seyedarmin and Zhao, Yequan and Potraghloo, Erfan Baghaei and McPherson, Sean and Sridhar, Sharath Nittur and Wang, Zhengyang and Zhang, Zheng and Pedram, Massoud and Kundu, Souvik},
   journal={arXiv preprint arXiv:2512.07993},
   year={2025}
 }
+```
 Our release code is developed based on [R-KV](https://github.com/Zefan-Cai/R-KV/tree/main) and [SEAL](https://github.com/VITA-Group/SEAL). 
 
