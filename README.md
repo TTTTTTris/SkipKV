@@ -21,7 +21,7 @@ Unlike previous token eviction methods, SkipKV:
 
 
 ## 🔥 News
-- 📦 **Code will be released soon!**
+- 🚀 [25/03/07] **Code released!**
 - 🚀 [25/11/05] We are excited to announce SkipKV, a decoding-time KV-cache compression technique designed for efficient reasoning-model inference.
 
 
