@@ -28,17 +28,13 @@ Unlike previous token eviction methods, SkipKV:
 ## ⚙️ Setup
 
 ### Install Dependencies
-Use the following command to install the minimal required dependencies:
+Use the following command to install everything needed:
 ```bash
-pip install -r requirements.txt
+pip install -e .
+pip install flash-attn==2.8.0.post2 --no-build-isolation --no-cache-dir
 ```
 
 ## 🚀 Quick Start
-Before running the scripts, you need to build the skipkv package:
-```bash
-pip install -e .
-```
-
 Use the following command to run R1-like models with SkipKV on math benchmarks:
 ```bash
 bash run.sh # gsm8k, math-500, aime24
