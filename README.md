@@ -37,13 +37,13 @@ pip install flash-attn==2.8.0.post2 --no-build-isolation --no-cache-dir
 ## 🚀 Quick Start
 Use the following command to run R1-like models with SkipKV on math benchmarks:
 ```bash
-bash run.sh # gsm8k, math-500, aime24
-bash run_code.sh # LiveCodeBench with evaluation
+bash scripts/run.sh # gsm8k, math-500, aime24
+bash scripts/run_code.sh # LiveCodeBench with evaluation
 ```
 
 To evaluate benchmark results, simply run:
 ```bash
-bash examples/eval.sh # gsm8k, math-500, aime24
+bash scripts/eval.sh # gsm8k, math-500, aime24
 ```
 The results will be saved in the `outputs` directory.
 
