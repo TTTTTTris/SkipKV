@@ -156,7 +156,7 @@ In multi-batch decoding scenrio:
 @article{tian2025skipkv,
   title={SkipKV: Selective Skipping of KV Generation and Storage for Efficient Inference with Large Reasoning Models},
   author={Tian, Jiayi and Azizi, Seyedarmin and Zhao, Yequan and Potraghloo, Erfan Baghaei and McPherson, Sean and Sridhar, Sharath Nittur and Wang, Zhengyang and Zhang, Zheng and Pedram, Massoud and Kundu, Souvik},
-  journal={MLSys},
+  journal={Ninth Annual Conference on Machine Learning and Systems (MLSys)},
   year={2026}
 }
 ```
