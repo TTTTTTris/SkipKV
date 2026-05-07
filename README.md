@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/badge/Paper-arXiv-red">
   </a>
   <a href="https://github.com/TTTTTTris/SkipKV">
-    <img src="https://img.shields.io/badge/Code-GitHub-black">
+    <img src="https://img.shields.io/badge/Code-GitHub-yellow">
   </a>
 </p>
 
